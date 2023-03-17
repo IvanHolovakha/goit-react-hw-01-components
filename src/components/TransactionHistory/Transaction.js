@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import { TableRow, TableData } from './Transaction.styled';
 
 export const Transaction = ({data:{type, amount, currency}}) => {
@@ -8,7 +9,7 @@ export const Transaction = ({data:{type, amount, currency}}) => {
       <TableData>{amount}</TableData>
       <TableData>{currency}</TableData>
     </TableRow>
-  )
+  );
 }
 
 Transaction.propTypes = {
