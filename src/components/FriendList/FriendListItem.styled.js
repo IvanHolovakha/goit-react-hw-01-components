@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Item = styled.li`
   display: flex;
@@ -8,9 +8,9 @@ export const Item = styled.li`
   margin-bottom: 10px;
   box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.33);
   &:last-child {
-      margin-bottom: 0;
-    }
-`
+    margin-bottom: 0;
+  }
+`;
 
 export const Status = styled.span`
   width: 20px;
@@ -23,15 +23,15 @@ export const Status = styled.span`
     }
     return 'red';
   }};
-`
+`;
 
 export const Avatar = styled.img`
   display: block;
   width: 48px;
   margin-right: 10px;
-`
+`;
 
 export const Name = styled.p`
   font-size: 20px;
   font-weight: bold;
-`
+`;

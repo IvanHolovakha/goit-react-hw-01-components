@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const List = styled.ul`
   width: 300px;
@@ -6,4 +6,4 @@ export const List = styled.ul`
   margin-bottom: 50px;
   list-style: none;
   padding-inline-start: 0px;
-`
+`;
